@@ -1,8 +1,6 @@
 # JSONRPCKit
 
-[![Build Status](https://travis-ci.org/bricklife/JSONRPCKit.svg?branch=master)](https://travis-ci.org/bricklife/JSONRPCKit)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![CocoaPods](https://img.shields.io/cocoapods/v/JSONRPCKit.svg)](https://cocoapods.org/)
+[![Build Status](https://travis-ci.org/brewing-house/JSONRPCKit.svg?branch=master)](https://travis-ci.org/brewing-house/JSONRPCKit)
 
 JSONRPCKit is a type-safe [JSON-RPC 2.0](http://www.jsonrpc.org/specification) library purely written in Swift.
 
@@ -21,13 +19,21 @@ response // 19 (type of response is inferred from SubtractRequest.Response)
 
 ## Requirements
 
-- Swift 4.0 / Xcode 9.0 or later
-    - If you use Swift 3.1 (Xcode 8.3), you can use [2.0.3](https://github.com/bricklife/JSONRPCKit/tree/2.0.3) instead.
-- iOS 8.0 or later
-- macOS 10.9 or later
+- Swift 5.3 / Xcode 12.2 or later
+    - If you use Swift 4.0 (Xcode 9), you can use [JSONRPCKit](https://github.com/bricklife/JSONRPCKit/tree/3.0.0) instead.
+- iOS 9.0 or later
+- macOS 10.15 or later
 - watchOS 2.0 or later
 - tvOS 9.0 or later
 - [Linux](https://swift.org/download/#linux) is also supported
+
+## Installation
+
+### CocoaPods
+
+```
+	pod 'JSONRPCKit', :git => 'https://github.com/brewing-house/JSONRPCKit.git', :branch => '5.x'
+```
 
 ## Basic usage
 
